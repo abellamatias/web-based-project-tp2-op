@@ -24,7 +24,7 @@ body{
 }
 
 .container{
-    background-color: red;
+    
     height: 90%;
     width: 45%;
     display: flex;
@@ -34,6 +34,7 @@ body{
     flex-direction: column;
 }
 
+/* Inicio Tarjeta 1 */
 .card{
     background-color: white;
     width: 40%;
@@ -87,11 +88,24 @@ body{
     height: 43px;
     width: 43px;
     font-size: 30px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     background-color: #f6f7f8;
 }
 
+.card1 .titulo-descripcion h3{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.card1 .titulo-descripcion p{
+    font-size: 15px;
+    opacity: 55%;
+    padding: 5px;
+}
+
+/* Fin Tarjeta 1 */
 .card2{
     text-align: center;
     align-content: space-around;
