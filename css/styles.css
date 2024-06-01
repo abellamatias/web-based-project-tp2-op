@@ -24,12 +24,11 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
-
 }
 
 .container{
     
-    height: 90%;
+    height: 95%;
     width: 45%;
     display: flex;
     flex-wrap: wrap;
@@ -38,20 +37,21 @@ body{
     flex-direction: column;
 }
 
-/* Inicio Tarjeta 1 */
+
 .card{
     background-color: white;
     width: 40%;
-    height: 40%;
-    border: 0px solid transparent;
-    border-radius: 20px;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);    
+    height: 35%;
+    border: 1px solid transparent;
+    border-radius: 25px; 
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1); 
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+/* Inicio Tarjeta 1 */
 .card1{
     flex-basis: 45%;    
 }
@@ -146,23 +146,37 @@ body{
 }
 
 /* Fin Tarjeta 1 */
+/* Inicio Tarjeta 2 */
 .card2{
+    display: flex;
+    align-items: center;
     text-align: center;
     align-content: space-around;
-    flex-basis: 40%;
+    flex-basis: 35%;
     background: linear-gradient(white 20%, rgba(221,181,229,0.6) 90%);
 }
 
 .card2 img{
-    width: 40%;
+    max-width: 30%;
 }
 
+.card2 p{
+    opacity: 0.6;
+}
+
+.card2 button{
+    background-image: linear-gradient(to right, #191818, #0c0c0a);
+    color: white;
+}
+
+/* Fin Tarjeta 2 */
 .card3{
     flex-basis: 60%; 
     background: linear-gradient( #3a3a3a, #171717);
 }
+
 .card3 img{
-    width: 100%;
+    width: 40%;
 }
 .ramas{
     width: 40%;
