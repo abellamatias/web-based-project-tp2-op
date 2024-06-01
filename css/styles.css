@@ -21,6 +21,10 @@ body{
     font-size: 18px;
     background-color: black;
     color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
 }
 
 .container{
@@ -96,13 +100,49 @@ body{
 .card1 .titulo-descripcion h3{
     font-weight: bold;
     font-size: 20px;
-    padding: 5px;
 }
 
 .card1 .titulo-descripcion p{
     font-size: 15px;
     opacity: 55%;
-    padding: 5px;
+    padding-top: 10px;
+}
+
+.card1 .lista-enfoque{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card1 .lista-enfoque p{
+    text-align: center;
+    font-size: 15px;
+    background-color: #dce5fc;
+    border: 0px solid transparent;
+    border-radius: 6px;
+    margin-right: 7px;
+    padding: 4px 5px;
+    margin-top: -10px;
+}
+
+.card1 hr{
+    border-top: 1px dashed rgba(0, 0, 0, 0.1);
+}
+
+.card1 .precio h1{
+    font-size: 32px;
+    padding-bottom: 5px;
+}
+
+.card1 .precio p{
+    font-size: 13px;
+    opacity: 55%;
+
+}
+
+.card1 .submit-button{
+    background-image: linear-gradient(to right, #3b91f7, #3d79f7);
+    color: white;
 }
 
 /* Fin Tarjeta 1 */
