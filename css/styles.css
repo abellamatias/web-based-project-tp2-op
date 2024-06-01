@@ -4,3 +4,49 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #efeeee;
+}
+
+.container{
+    background-color: transparent;
+    height: 85%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-direction: column;
+}
+
+.card{
+    background-color: white;
+    width: 45%;
+    height: 45%;
+    border: 0px solid transparent;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);    
+}
+
+.card1{
+    flex-basis: 45%;    
+}
+
+.card2{
+    flex-basis: 40%;
+    background: linear-gradient(white 20%, rgba(221,181,229,0.6) 90%);
+}
+
+.card3{
+    flex-basis: 60%; 
+    background: linear-gradient( #3a3a3a, #171717);
+}
+
+.card4{
+    flex-basis: 25%;
+}
