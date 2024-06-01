@@ -276,7 +276,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     background-color: rgba(240, 240, 240, 1);
-    padding: 15px;
+    padding: 20px;
 }
 
 .card3 .lista-info .bloque3 div{
@@ -299,10 +299,28 @@ body{
     
 }
 
-
-.card3 img{
-    width: 40%;
+.card3 .availability{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
 }
+
+.card3 .availability h3{
+    font-weight: normal;
+    font-size: 16px;
+    opacity: 0.97;
+}
+
+.card3 .availability p{
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.card3 .availability img{
+    width: 100%;
+}
+
 .ramas{
     width: 40%;
 }
