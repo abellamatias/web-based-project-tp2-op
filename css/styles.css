@@ -40,6 +40,7 @@ body{
 
 .card{
     background-color: white;
+    color:#1b1e22;
     width: 40%;
     height: 35%;
     border: 1px solid transparent;
@@ -48,7 +49,7 @@ body{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 /* Inicio Tarjeta 1 */
@@ -173,7 +174,131 @@ body{
 .card3{
     flex-basis: 60%; 
     background: linear-gradient( #3a3a3a, #171717);
+    color: #f0f0f0;
 }
+
+.card3 .encabezado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card3 .encabezado a{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 15px;
+    background-image: linear-gradient(to top right, #444545, #464647);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+}
+.card3 .encabezado svg{
+   margin-left: 7px;
+}
+
+.card3 .encabezado h3{
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.card3 .ganancias{
+    display: flex;
+    flex-direction: column;
+}
+
+.card3 .ganancias h4{
+    font-weight: normal;
+}
+
+.card3 .ganancias h1{
+    font-size: 50px;
+}
+
+.card3 .ganancias h1 span{
+    opacity: 0.3;
+}
+.card3 .ganancias p{
+    font-size: 15px;
+    opacity: 0.81;
+}
+
+.card3 .ganancias p span{
+    font-size: 15px;
+    opacity: 1;
+    color: #1fdd3d;
+}
+
+.card3 .lista-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    height: 190px;
+}
+
+.card3 .lista-info .bloque{
+    background-color: #403f3f;
+    flex-grow: 0.44;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    border-radius: 18px;
+    padding: 10px;
+}
+
+.card3 .lista-info .bloque h3 {
+    font-size: 30px;
+    color: rgba(240, 240, 240, 1);
+    padding-bottom: 5px;
+}
+
+.card3 .lista-info .bloque h3 span {
+    font-size: 18px;
+    font-weight: normal;
+    color: rgba(240, 240, 240, 0.5);
+}
+
+.card3 .lista-info .bloque p{
+    font-size: 12px;
+    color: rgba(240, 240, 240, 0.5);
+}
+.card3 .lista-info .bloque p span{
+    color: rgba(240, 240, 240, 1);
+}
+
+.card3 .lista-info .bloque3{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(240, 240, 240, 1);
+    padding: 15px;
+}
+
+.card3 .lista-info .bloque3 div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.card3 .lista-info .bloque3 h3{
+    font-size: 35px;
+    padding: 8px 0;
+    font-weight: normal;
+    color: black;
+    padding: 0;
+    
+}
+.card3 .lista-info .bloque3 p{
+    color: black;
+    opacity: 0.5;
+    
+}
+
 
 .card3 img{
     width: 40%;
