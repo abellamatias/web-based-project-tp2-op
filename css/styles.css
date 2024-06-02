@@ -52,6 +52,20 @@ body{
     justify-content: space-between;    
 }
 
+.desplegable{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.desplegable svg{
+    margin-left: 7px;
+ }
+
 /* Inicio Tarjeta 1 */
 .card1{
     flex-basis: 45%;    
@@ -67,6 +81,7 @@ body{
     flex-direction: row;
     align-items: center;
 }
+
 
 .card1 .encabezado .img-name div{
     display: flex;
@@ -172,11 +187,12 @@ body{
 
 /* Fin Tarjeta 2 */
 .card3{
-    flex-basis: 60%; 
+    flex-basis: 55%; 
     background: linear-gradient( #3a3a3a, #171717);
     color: #f0f0f0;
 }
 
+.card4 .encabezado,
 .card3 .encabezado{
     display: flex;
     flex-direction: row;
@@ -185,19 +201,9 @@ body{
 }
 
 .card3 .encabezado a{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    text-decoration: none;
-    color: #f0f0f0;
-    font-size: 15px;
-    background-image: linear-gradient(to top right, #444545, #464647);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    padding: 10px;
-}
-.card3 .encabezado svg{
-   margin-left: 7px;
+    color: #f0f0f0;
+    background-image: linear-gradient(to top right, #444545, #464647);
 }
 
 .card3 .encabezado h3{
@@ -324,11 +330,59 @@ body{
 .ramas{
     width: 40%;
 }
-
+/* Fin Tarjeta 3 */
+/* Inicio Tarjeta 4 */
 .card4{
-    flex-basis: 25%;
+    flex-basis: 22%;
+}
+
+.card4 .encabezado {
+    margin-bottom: 10px;
+}
+
+.card4 .encabezado a{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: black;
+    background-color: #f6f6f8;
+}
+
+.card4 .encabezado h3{
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.card4 .encabezado h3{
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.card4 .bloque{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.card4 .bloque h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.card4 .bloque .mes{
+    opacity: 0.5;
+    font-weight: normal;
+}
+
+.card4 .bloque img{
+    width: 50%;
+    height: 50%;
 }
 
 .card4 img{
     width: 100%;
 }
+
+.card4 hr{
+    opacity: 0.3;
+}
+/* Fin Tarjeta 4 */
