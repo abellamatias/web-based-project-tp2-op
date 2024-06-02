@@ -2,7 +2,7 @@ Este proyecto es una página que sirve para conectar a profesionales freelance c
 
 Podés ver la página ingresando al siguiente link:
 
-
+https://abellamatias.github.io/web-based-project-tp2-op/
 
 Características:
 
